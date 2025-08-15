@@ -1,0 +1,23 @@
+{"level":"info","component":"gin_webframework","time":"2024-11-23T17:29:54+08:00","caller":"config/gin/framework.go:41","message":"enable gin recovery"}
+{"level":"debug","time":"2024-11-23T17:29:54+08:00","caller":"skills/mcube/book.go:77","message":"BookController Init ..."}
+{"level":"info","component":"server","time":"2024-11-23T17:29:54+08:00","caller":"ioc/server/server.go:74","message":"loaded configs: [app.v1 trace.v1 log.v1 gin_webframework.v1 datasource.v1 grpc.v1 http.v1]"}
+{"level":"info","component":"server","time":"2024-11-23T17:29:54+08:00","caller":"ioc/server/server.go:75","message":"loaded controllers: [books.v1]"}
+{"level":"info","component":"server","time":"2024-11-23T17:29:54+08:00","caller":"ioc/server/server.go:76","message":"loaded apis: [books.v1]"}
+{"level":"info","component":"server","time":"2024-11-23T17:29:54+08:00","caller":"ioc/server/server.go:77","message":"loaded defaults: []"}
+{"level":"info","component":"http","time":"2024-11-23T17:29:54+08:00","caller":"config/http/http.go:144","message":"HTTP服务启动成功, 监听地址: 127.0.0.1:8010"}
+{"level":"info","component":"server","time":"2024-11-23T17:31:14+08:00","caller":"ioc/server/server.go:101","message":"receive signal 'hangup', start graceful shutdown"}
+{"level":"info","component":"http","time":"2024-11-23T17:31:14+08:00","caller":"config/http/http.go:152","message":"start graceful shutdown"}
+{"level":"error","component":"http","time":"2024-11-23T17:31:14+08:00","caller":"config/http/http.go:146","message":"http: Server closed"}
+{"level":"info","component":"server","time":"2024-11-23T17:31:14+08:00","caller":"ioc/server/server.go:115","message":"http service stop complete"}
+{"level":"info","component":"gin_webframework","time":"2025-08-15T02:58:09Z","caller":"config/gin/framework.go:41","message":"enable gin recovery"}
+{"level":"info","component":"gin_webframework","time":"2025-08-15T03:01:25Z","caller":"config/gin/framework.go:41","message":"enable gin recovery"}
+{"level":"debug","time":"2025-08-15T03:01:25Z","caller":"skill/mcube/book.go:78","message":"BookController Init ..."}
+{"level":"info","component":"server","time":"2025-08-15T03:01:25Z","caller":"ioc/server/server.go:76","message":"loaded configs: [app.v1 trace.v1 log.v1 gin_webframework.v1 datasource.v1 grpc.v1 http.v1]"}
+{"level":"info","component":"server","time":"2025-08-15T03:01:25Z","caller":"ioc/server/server.go:76","message":"loaded default: []"}
+{"level":"info","component":"server","time":"2025-08-15T03:01:25Z","caller":"ioc/server/server.go:76","message":"loaded controllers: [books.v1]"}
+{"level":"info","component":"server","time":"2025-08-15T03:01:25Z","caller":"ioc/server/server.go:76","message":"loaded apis: [books.v1]"}
+{"level":"info","component":"http","time":"2025-08-15T03:01:25Z","caller":"config/http/http.go:144","message":"HTTP服务启动成功, 监听地址: 127.0.0.1:8010"}
+{"level":"info","component":"server","time":"2025-08-15T03:01:30Z","caller":"ioc/server/server.go:101","message":"receive signal 'interrupt', start graceful shutdown"}
+{"level":"info","component":"http","time":"2025-08-15T03:01:30Z","caller":"config/http/http.go:152","message":"start graceful shutdown"}
+{"level":"error","component":"http","time":"2025-08-15T03:01:30Z","caller":"config/http/http.go:146","message":"http: Server closed"}
+{"level":"info","component":"server","time":"2025-08-15T03:01:30Z","caller":"ioc/server/server.go:115","message":"http service stop complete"}
